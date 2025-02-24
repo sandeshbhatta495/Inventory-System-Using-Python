@@ -1,1 +1,77 @@
 pandas
+inventory-management-system
+└── inventory-management-system
+|   ├── src
+|       ├── app.py
+|       ├── inventory_store.py
+|       ├── templates
+|           └── index.html
+|       └── static
+|           ├── css
+|               └── style.css
+|           └── js
+|               └── script.js
+|   ├── data
+|       └── products.csv
+|   ├── requirements.txt
+|   └── README.md
+
+# 📦 Inventory Management System
+
+This is a simple inventory management system built with Flask and Pandas.
+
+## 🚀 Features
+
+- 🛒 View Products
+- 🔍 Search Products
+- ➕ Add to Cart
+- 🛍️ View Cart
+- 💳 Checkout and Save Invoice
+- 🔐 User Authentication (Login/Logout)
+- 🏠 Home Page (Dashboard)
+- ➕ Add Items
+- ❌ Delete Items
+- 🏷️ Product Details (Manufacture Dates, Company Details)
+- 🖨️ Print Customer Invoice
+
+## 🛠️ Setup
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/inventory-management-system.git
+    cd inventory-management-system
+    ```
+
+2. **Install the required packages:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. **Run the Flask application:**
+    ```sh
+    python src/app.py
+    ```
+
+4. **Open your browser and go to `http://127.0.0.1:5000/` to view the application.**
+
+## 📋 Requirements
+
+- `pandas`
+- `flask`
+
+## 🗄️ Database
+
+The product data is stored in a CSV file located at `data/products.csv`. You can update this file to add more products or modify existing ones.
+
+### Sample Data (`data/products.csv`)
+
+```csv
+ProductID,ProductName,Category,Price,Stock,Image
+1,Apple,Fruit,0.5,100,apple.jpg
+2,Banana,Fruit,0.3,150,banana.jpg
+3,Carrot,Vegetable,0.2,200,carrot.jpg
+4,Detergent,Household,3.5,50,detergent.jpg
+5,Shampoo,Personal Care,4.0,75,shampoo.jpg
+```
+
+This `README.md` file includes attractive symbols, details about the features, setup instructions, requirements, database information, and contact details. You can customize it further as per your needs.
